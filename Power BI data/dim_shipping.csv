@@ -1,0 +1,13 @@
+"ShippingKey","shipping_mode","delivery_status"
+1,first class,late delivery
+2,first class,shipping canceled
+3,same day,late delivery
+4,same day,shipping canceled
+5,same day,shipping on time
+6,second class,late delivery
+7,second class,shipping canceled
+8,second class,shipping on time
+9,standard class,advance shipping
+10,standard class,late delivery
+11,standard class,shipping canceled
+12,standard class,shipping on time
