@@ -11,13 +11,13 @@ The main objective is to make it easier to monitor key areas such as order volum
 ## Final Dashboard
 
 **Dashboard Overview**
-![Dashboard Overview](images/dashboard-overview.png) 
+![Dashboard Overview](Images/dashboard-overview.png) 
 
 **Delivery Performance**
-![Delivery Performance](images/dashboard-delivery-performance.png)
+![Delivery Performance](Images/dashboard-delivery-performance.png)
 
 **Product Performance**
-![Product Performance](images/dashboard-product-performance.png)
+![Product Performance](Images/dashboard-product-performance.png)
 
 ## Project Architecture 
 
@@ -26,27 +26,26 @@ SOI: staging, cleaning, normalization
 SOA: Logistics Data Mart / star schema
 BI: Power BI dashboards
 
-![Project Architecture](images/architecture.png)
+![Project Architecture](Images/architecture.png)
 
 ## Data Modeling Process
 
 **Relational Model**
 
-![Relational Model](images/relational-model.png)
+![Relational Model](Images/relational-model.png)
 
 **Dimensional Model (Star Schema)**
 
-![Dimensional Model](images/star-schema.png)
+![Dimensional Model](Images/star-schema.png)
 
 The dimensional model was imported into Power BI with one-to-many relationships from dimensions to fact tables. The date dimension is used for both order and shipping dates.
 
 ## SQL Pipeline
 
-sql/
-├── 01_data_profiling.sql
-├── 02_staging.sql
-├── 03_relational_model.sql
-└── 04_dimensional_model.sql
+- `01_data_profiling.sql`
+- `02_staging.sql`
+- `03_relational_model.sql`
+- `04_dimensional_model.sql`
 
 ## Tools
 - DuckDB
