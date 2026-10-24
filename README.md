@@ -11,12 +11,15 @@ The main objective is to make it easier to monitor key areas such as order volum
 ## Final Dashboard
 
 **Dashboard Overview**
+
 ![Dashboard Overview](Images/dashboard-overview.png) 
 
 **Delivery Performance**
+
 ![Delivery Performance](Images/dashboard-delivery-performance.png)
 
 **Product Performance**
+
 ![Product Performance](Images/dashboard-product-performance.png)
 
 ## Project Architecture 
