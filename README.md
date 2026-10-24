@@ -8,6 +8,15 @@ The project aims to transform raw supply chain data into a structured BI solutio
 
 The main objective is to make it easier to monitor key areas such as order volume, delivery performance, delays, sales and product profitability through a dimensional data model and interactive Power BI dashboards.
 
+## Dataset
+The project uses the DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS dataset from Kaggle.
+
+The dataset contains 180,519 order item rows representing 65,752 unique orders. It includes information about orders, products, categories, departments, locations, shipping methods, delivery status, sales, discounts and profit.
+
+Because the dataset is too large to include directly in this repository, it can be downloaded from Kaggle:
+
+[Download the dataset on Kaggle](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis/data)
+
 ## Final Dashboard
 
 **Dashboard Overview**
