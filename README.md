@@ -58,9 +58,6 @@ The dimensional model was imported into Power BI with one-to-many relationships 
 - DAX
 - Power Query
 
-## Key Takeaways
-- data profiling og data quality
-- relational + dimensional modeling
-- grain management
-- SQL transformations
-- Power BI modeling og dashboard design
+## Technologies and Skills
+
+Data profiling og data quality | Relational + dimensional modeling | Grain management | SQL transformations | Power BI modeling og dashboard design 
