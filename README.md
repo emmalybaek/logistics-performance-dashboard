@@ -4,30 +4,39 @@
 
 ## Problem
 
-mangler at skrive
+The project aims to transform raw supply chain data into a structured BI solution that provides clear insights into logistics and delivery performance.
+
+The main objective is to make it easier to monitor key areas such as order volume, delivery performance, delays, sales and product profitability through a dimensional data model and interactive Power BI dashboards.
 
 ## Final Dashboard
 
-3 images 
+**Dashboard Overview**
+![Dashboard Overview](images/dashboard-overview.png) 
+
+**Delivery Performance**
+![Delivery Performance](images/dashboard-delivery-performance.png)
+
+**Product Performance**
+![Product Performance](images/dashboard-product-performance.png)
 
 ## Project Architecture 
-
-image af data achitekturen (slide 8)
 
 SOR: raw DataCo dataset
 SOI: staging, cleaning, normalization
 SOA: Logistics Data Mart / star schema
 BI: Power BI dashboards
 
+![Project Architecture](images/architecture.png)
+
 ## Data Modeling Process
 
 **Relational Model**
 
-ERD image
+![Relational Model](images/relational-model.png)
 
 **Dimensional Model (Star Schema)**
 
-image af star schema in power bi (slide 7)
+![Dimensional Model](images/star-schema.png)
 
 The dimensional model was imported into Power BI with one-to-many relationships from dimensions to fact tables. The date dimension is used for both order and shipping dates.
 
